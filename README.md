@@ -1,6 +1,6 @@
 Data from the Robert-Koch-Institut on COVID-19 in Germany
 ================
-Last update: 2020-06-07
+Last update: 2020-09-19
 
 This repository contains data on reported COVID-19 cases in Germany and
 its federal states that is published daily by the Robert-Koch-Institut
@@ -15,24 +15,24 @@ corona_rki %>%
 ```
 
     ## # A tibble: 1,530 x 6
-    ##    Datum      Bundesland      Fallzahl Todeszahl Fallzahl_neu Todeszahl_neu
-    ##    <date>     <chr>              <dbl>     <dbl>        <dbl>         <dbl>
-    ##  1 2020-06-07 Baden-Württemb…    34912      1791           14             1
-    ##  2 2020-06-07 Bayern             47334      2501            8            12
-    ##  3 2020-06-07 Berlin              6997       205           33             4
-    ##  4 2020-06-07 Brandenburg         3297       158            3             0
-    ##  5 2020-06-07 Bremen              1517        44            4             0
-    ##  6 2020-06-07 Hamburg             5113       254            2             0
-    ##  7 2020-06-07 Hessen             10203       484           32             1
-    ##  8 2020-06-07 Mecklenburg-Vo…      773        20            7             0
-    ##  9 2020-06-07 Niedersachsen      12466       605           67             0
-    ## 10 2020-06-07 Nordrhein-West…    38616      1623           92             1
-    ## 11 2020-06-07 Rheinland-Pfalz     6775       230           14             0
-    ## 12 2020-06-07 Saarland            2747       166            7             0
-    ## 13 2020-06-07 Sachsen             5323       214            2             2
-    ## 14 2020-06-07 Sachsen-Anhalt      1720        56            3             1
-    ## 15 2020-06-07 Schleswig-Hols…     3109       147            2             0
-    ## 16 2020-06-07 Thüringen           3077       170           11             0
+    ##    Datum      Bundesland           Fallzahl Todeszahl Fallzahl_neu Todeszahl_neu
+    ##    <date>     <chr>                   <dbl>     <dbl>        <dbl>         <dbl>
+    ##  1 2020-06-07 Baden-Württemberg       34912      1791           14             1
+    ##  2 2020-06-07 Bayern                  47334      2501            8            12
+    ##  3 2020-06-07 Berlin                   6997       205           33             4
+    ##  4 2020-06-07 Brandenburg              3297       158            3             0
+    ##  5 2020-06-07 Bremen                   1517        44            4             0
+    ##  6 2020-06-07 Hamburg                  5113       254            2             0
+    ##  7 2020-06-07 Hessen                  10203       484           32             1
+    ##  8 2020-06-07 Mecklenburg-Vorpomm…      773        20            7             0
+    ##  9 2020-06-07 Niedersachsen           12466       605           67             0
+    ## 10 2020-06-07 Nordrhein-Westfalen     38616      1623           92             1
+    ## 11 2020-06-07 Rheinland-Pfalz          6775       230           14             0
+    ## 12 2020-06-07 Saarland                 2747       166            7             0
+    ## 13 2020-06-07 Sachsen                  5323       214            2             2
+    ## 14 2020-06-07 Sachsen-Anhalt           1720        56            3             1
+    ## 15 2020-06-07 Schleswig-Holstein       3109       147            2             0
+    ## 16 2020-06-07 Thüringen                3077       170           11             0
     ## # … with 1,514 more rows
 
 Data is downloaded each day at 11am from the [website of the
